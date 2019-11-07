@@ -3,3 +3,4 @@ C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\bin
 C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.pdb
 C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.exe
 C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.pdb
+C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csprojAssemblyReference.cache

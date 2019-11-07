@@ -42,7 +42,7 @@ namespace ProgrammingInCSharp
             Console.Clear();
             #endregion
 
-            var items = Enumerable.Range(0, 500);
+            var items = Enumerable.Range(0, 10);
 
             #region Parallel - ForEach
             Parallel.ForEach(items, item =>
@@ -69,7 +69,7 @@ namespace ProgrammingInCSharp
             #region Managing Parallel For and Parallel Foreach
             ParallelLoopResult result = Parallel.For(0, itemsArr.Count(), (int i, ParallelLoopState loopState) =>
             {
-                if (i == 200) loopState.Break();
+                if (i == 7) loopState.Break();
                 WorkOnItem(itemsArr[i]);
             });
             Console.WriteLine($"Completed: {result.IsCompleted}");
@@ -79,7 +79,6 @@ namespace ProgrammingInCSharp
             Console.Clear();
             #endregion
 
-            #region Parallel LINQ
             Person[] people = new Person[]
             {
                     new Person{Name="Alan", City="Hull"},
@@ -93,10 +92,35 @@ namespace ProgrammingInCSharp
                     new Person{Name="Isaac", City="Seattle"},
                     new Person{Name="James", City="London"}
             };
+
+            #region Parallel LINQ
             var persons = from person in people.AsParallel()
                          where person.City == "Seattle"
                          select person;
             foreach (var person in persons) Console.WriteLine(person.Name);
+            Console.WriteLine("Finished processing. Press a key to end.");
+            Console.ReadKey();
+            Console.Clear();
+            #endregion
+
+            #region Informing Parallelization
+            /*This call of AsParallel requests that the query be parallelized wheter performance is improved or not, 
+            with the request that the query be executed on a maximum of four processors*/
+            var informingResult = from person in people.AsParallel()
+                                  .WithDegreeOfParallelism(4)
+                                  .WithExecutionMode(ParallelExecutionMode.ForceParallelism)
+                                  where person.City == "Seattle"
+                                  select person;
+
+            //AsOrdered
+            /*This AsOrdered method does not prevent the parallelization of the query. Instead it organizes the output 
+             so that it is in the same order as the oprginal data. It can slow down the query*/
+
+            var orderedPersons = from person in people.AsParallel()
+                          .AsOrdered()
+                          where person.City == "Seattle"
+                          select person;
+            foreach (var person in orderedPersons) Console.WriteLine(person.Name);
             Console.WriteLine("Finished processing. Press a key to end.");
             Console.ReadKey();
             Console.Clear();
