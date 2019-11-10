@@ -36,6 +36,7 @@ namespace ProgrammingInCSharp
         static void Main(string[] args)
         {
             #region Parallel
+            Console.WriteLine("Parallel : ");
             Parallel.Invoke(() => Task1(), () => Task2());
             Console.WriteLine("Finished processing. Press a key to end.");
             Console.ReadKey();
@@ -45,6 +46,7 @@ namespace ProgrammingInCSharp
             var items = Enumerable.Range(0, 10);
 
             #region Parallel - ForEach
+            Console.WriteLine("Parallel - ForEach : ");
             Parallel.ForEach(items, item =>
             {
                 WorkOnItem(item);
@@ -56,6 +58,7 @@ namespace ProgrammingInCSharp
             #endregion
 
             #region Parallel - For
+            Console.WriteLine("Parallel - For : ");
             var itemsArr = items.ToArray();
             Parallel.For(0, itemsArr.Length, i =>
             {
@@ -67,6 +70,7 @@ namespace ProgrammingInCSharp
             #endregion
 
             #region Managing Parallel For and Parallel Foreach
+            Console.WriteLine("Managing Parallel For and Parallel Foreach : ");
             ParallelLoopResult result = Parallel.For(0, itemsArr.Count(), (int i, ParallelLoopState loopState) =>
             {
                 if (i == 7) loopState.Break();
@@ -94,6 +98,7 @@ namespace ProgrammingInCSharp
             };
 
             #region Parallel LINQ
+            Console.WriteLine("Parallel LINQ : ");
             var persons = from person in people.AsParallel()
                          where person.City == "Seattle"
                          select person;
@@ -104,6 +109,7 @@ namespace ProgrammingInCSharp
             #endregion
 
             #region Informing Parallelization
+            Console.WriteLine("Informing Parallelization : ");
             /*This call of AsParallel requests that the query be parallelized wheter performance is improved or not, 
             with the request that the query be executed on a maximum of four processors*/
             var informingResult = from person in people.AsParallel()
@@ -113,6 +119,7 @@ namespace ProgrammingInCSharp
                                   select person;
 
             //AsOrdered
+            Console.WriteLine("AsOrdered : ");
             /*This AsOrdered method does not prevent the parallelization of the query. Instead it organizes the output 
              so that it is in the same order as the oprginal data. It can slow down the query*/
 
@@ -121,6 +128,32 @@ namespace ProgrammingInCSharp
                           where person.City == "Seattle"
                           select person;
             foreach (var person in orderedPersons) Console.WriteLine(person.Name);
+            Console.WriteLine("Finished processing. Press a key to end.");
+            Console.ReadKey();
+            Console.Clear();
+
+
+            //AsSequential
+            Console.WriteLine("AsSequential : ");
+            var asSequentialResult = (from person in people.AsParallel()
+                                      where person.City == "Seattle"
+                                      orderby (person.Name)
+                                      select new
+                                      {
+                                          Name = person.Name
+                                      }).AsSequential().Take(4);
+            foreach (var person in asSequentialResult) Console.WriteLine(person.Name);
+            Console.WriteLine("Finished processing. Press a key to end.");
+            Console.ReadKey();
+            Console.Clear();
+            #endregion
+
+            #region Interating query using ForAll
+            Console.WriteLine("Interating query using ForAll : ");
+            var interatingResult = from person in people.AsParallel()
+                                   where person.City == "Seattle"
+                                   select person;
+            interatingResult.ForAll(person => Console.WriteLine(person.Name));
             Console.WriteLine("Finished processing. Press a key to end.");
             Console.ReadKey();
             Console.Clear();
