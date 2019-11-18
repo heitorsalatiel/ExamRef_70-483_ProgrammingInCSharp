@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingInCSharp", "ProgrammingInCSharp\ProgrammingInCSharp.csproj", "{0DC47408-9C3F-4F55-9E04-66FA2ED158D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallelization", "ProgrammingInCSharp\Parallelization.csproj", "{0DC47408-9C3F-4F55-9E04-66FA2ED158D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{CFD3A68A-8E36-457A-98CF-8AC33356EBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{E9078150-3AD2-4D60-B871-C7CA49F3A716}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0DC47408-9C3F-4F55-9E04-66FA2ED158D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DC47408-9C3F-4F55-9E04-66FA2ED158D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DC47408-9C3F-4F55-9E04-66FA2ED158D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD3A68A-8E36-457A-98CF-8AC33356EBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD3A68A-8E36-457A-98CF-8AC33356EBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD3A68A-8E36-457A-98CF-8AC33356EBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD3A68A-8E36-457A-98CF-8AC33356EBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9078150-3AD2-4D60-B871-C7CA49F3A716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9078150-3AD2-4D60-B871-C7CA49F3A716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9078150-3AD2-4D60-B871-C7CA49F3A716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9078150-3AD2-4D60-B871-C7CA49F3A716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

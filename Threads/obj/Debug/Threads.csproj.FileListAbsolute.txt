@@ -1,0 +1,7 @@
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\bin\Debug\Threads.exe.config
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\bin\Debug\Threads.exe
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\bin\Debug\Threads.pdb
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\obj\Debug\Threads.csprojAssemblyReference.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\obj\Debug\Threads.csproj.CoreCompileInputs.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\obj\Debug\Threads.exe
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Threads\obj\Debug\Threads.pdb

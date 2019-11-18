@@ -1,0 +1,7 @@
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\bin\Debug\Tasks.exe.config
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\bin\Debug\Tasks.exe
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\bin\Debug\Tasks.pdb
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\obj\Debug\Tasks.csprojAssemblyReference.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\obj\Debug\Tasks.exe
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\Tasks\obj\Debug\Tasks.pdb

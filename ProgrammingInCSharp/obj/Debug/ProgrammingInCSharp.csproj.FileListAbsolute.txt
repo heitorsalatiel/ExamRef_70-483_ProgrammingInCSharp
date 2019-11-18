@@ -4,3 +4,10 @@ C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\bin
 C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.exe
 C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.pdb
 C:\Users\HeitorSalatiel\source\repos\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csprojAssemblyReference.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe.config
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.pdb
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csprojAssemblyReference.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.exe
+C:\Users\Heitor\Desktop\CursoseProjetos\ExamRef 70-483 Programming In C#\ExamRef_70-483_ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.pdb
